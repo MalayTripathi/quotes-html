@@ -1,0 +1,86 @@
+/******************************HTML Elements Styled******************************/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #16a085;
+}
+
+div{
+    color: #16a085;
+}
+
+/*Outer Quote Block*/
+.quote-block{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 13% auto auto auto;
+}
+
+/*Quote Text Div*/
+.quote-text{
+    width: 75%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Quote Author*/
+.quote-author{
+    width: 75%;
+    margin-left: Auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Buttons*/
+.buttons{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0px auto;
+    padding-bottom: 50px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 3px; 
+    padding: 10px 10px 10px 10px;
+}
+
+.button-click{
+    background-color: #16a085;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Creator Tag Bottom*/
+.creator{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.creator a{
+    text-decoration: none;
+    color: white;
+}
